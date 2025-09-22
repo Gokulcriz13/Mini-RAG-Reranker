@@ -52,3 +52,13 @@ curl -X POST http://127.0.0.1:8080/ask \
 | Explain the concept of power and force limiting in cobots.           | Hokuyo-USA_-_A_Safety_Guide_to_Industrial_Robotics_Hazards_-_Whitepaper          | 0.3980         | Hokuyo-USA_-_A_Safety_Guide_to_Industrial_Robotics_Hazards_-_Whitepaper         | 0.7000       |
 | What is the role of light curtains in robot safety?                  | Machine-Safety-Brochure-Guide                                                    | 0.6761         | Machine-Safety-Brochure-Guide                                                   | 0.7000       |
 
+
+
+## Learned in it
+
+In this assessment i gained a quick learning on how a RAG model supports the Q/A model by refinig and finetuning the text extracted from itself, I made it as a two division one covers the Handling of Data Starts with storing PDF, Making it into chunks that can be easily stored in the SQLite chunk.db and splitting the chunks into paragraphs of upto 300 words, then created the embeddings with the recommended model (all-MiniLM-L6-V2) used sentence-transformers and also generated FAISS indexing helps to retrive the data be making it vector similiarity search within the chuncksand i also saved the DB row Ids for better tracability makes the storing of chuncks and baseline search made the completion of the phase 1
+
+After completing around 60% of the assessment pipeline, the balance leftovers were hybrid comparison using BM25 made a new knowledge on RAG model that actually works well like the sentence-tarnsformer and made it good and i created the API using flask to make it accessible for the frontend applications to check the api i also created the benchmarking using benchmarking.py on the two different methods to check the API working and comparison between baseline and reranker hybrid working well.
+This completes the pipeline of the Mini-RAG + Reranker Sprint.
+
+It is a best oppurtunity to work in RAG moodels!!
