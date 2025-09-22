@@ -35,7 +35,7 @@ finetuning the text extracted from itself, I made it as a two division one cover
 with storing PDF, Making it into chunks that can be easily stored in the SQLite chunk.db and splitting the
 chunks into paragraphs of upto 300 words, then created the embeddings with the recommended model
 (all-MiniLM-L6-V2) used sentence-transformers and also generated FAISS indexing helps to retrive the data
- be making it vector similiarity search within the chuncksand i also saved the DB row Ids for better
+ be making it vector similiarity search within the chuncksand i also saved the DB row IDs for better
 tracability makes the storing of chuncks and baseline search made the completion of the phase 1
 
 After completing around 60% of the assessment pipeline, the balance leftovers were hybrid comparison
@@ -46,7 +46,7 @@ to check the API working and comparison between baseline and reranker hybrid wor
 
 This completes the pipeline of the Mini-RAG + Reranker Sprint.
 
-It is a best oppurtunity to work in RAG moodels!!
+It is a best oppurtunity to work in RAG models!!
 
 ## Setup
 ```bash
