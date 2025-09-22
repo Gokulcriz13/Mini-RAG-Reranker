@@ -1,0 +1,14 @@
+pdfplumber
+sentence-transformers
+faiss-cpu
+fastapi
+uvicorn
+scikit-learn
+rank-bm25
+numpy
+pandas
+tqdm
+pymupdf
+openai
+flask
+tabulate

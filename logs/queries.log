@@ -1,0 +1,96 @@
+MODE: baseline
+QUERY: What are the main industrial robot safety standards?
+  DB_ID: 608, SCORE: 0.7783373594284058
+  DB_ID: 611, SCORE: 0.7771353125572205
+  DB_ID: 607, SCORE: 0.7568721771240234
+
+MODE: hybrid
+QUERY: What are the main industrial robot safety standards?
+  DB_ID: 608, SCORE: 0.7
+  DB_ID: 611, SCORE: 0.6947855511796771
+  DB_ID: 607, SCORE: 0.6068845839307995
+
+MODE: baseline
+QUERY: Explain the difference between collaborative and traditional robots.
+  DB_ID: 603, SCORE: 0.5262420177459717
+  DB_ID: 7, SCORE: 0.49881452322006226
+  DB_ID: 9, SCORE: 0.4311726987361908
+
+MODE: hybrid
+QUERY: Explain the difference between collaborative and traditional robots.
+  DB_ID: 603, SCORE: 0.7
+  DB_ID: 7, SCORE: 0.6226711182022415
+  DB_ID: 9, SCORE: 0.43196224229099633
+
+MODE: baseline
+QUERY: What sensors are typically used for robot safety?
+  DB_ID: 614, SCORE: 0.6700365543365479
+  DB_ID: 613, SCORE: 0.6395390033721924
+  DB_ID: 605, SCORE: 0.6129721999168396
+
+MODE: hybrid
+QUERY: What sensors are typically used for robot safety?
+  DB_ID: 614, SCORE: 0.7
+  DB_ID: 613, SCORE: 0.5467927036730161
+  DB_ID: 605, SCORE: 0.4133318846648892
+
+MODE: baseline
+QUERY: How does ISO 10218 regulate robot safety?
+  DB_ID: 1, SCORE: 0.7011396884918213
+  DB_ID: 608, SCORE: 0.6926525831222534
+  DB_ID: 1877, SCORE: 0.6331354379653931
+
+MODE: hybrid
+QUERY: How does ISO 10218 regulate robot safety?
+  DB_ID: 1, SCORE: 0.7
+  DB_ID: 608, SCORE: 0.6568995972890849
+  DB_ID: 1877, SCORE: 0.3546513262044896
+
+MODE: baseline
+QUERY: What are the main hazards in industrial robotics?
+  DB_ID: 602, SCORE: 0.715997576713562
+  DB_ID: 606, SCORE: 0.6744917035102844
+  DB_ID: 603, SCORE: 0.652755856513977
+
+MODE: hybrid
+QUERY: What are the main hazards in industrial robotics?
+  DB_ID: 602, SCORE: 0.7
+  DB_ID: 606, SCORE: 0.5409869275438246
+  DB_ID: 603, SCORE: 0.4577147651586894
+
+MODE: baseline
+QUERY: How do safety-rated monitored stops work?
+  DB_ID: 1710, SCORE: 0.6700655221939087
+  DB_ID: 1816, SCORE: 0.6680066585540771
+  DB_ID: 1493, SCORE: 0.64329993724823
+
+MODE: hybrid
+QUERY: How do safety-rated monitored stops work?
+  DB_ID: 1710, SCORE: 0.7
+  DB_ID: 1816, SCORE: 0.681513230830396
+  DB_ID: 1493, SCORE: 0.459668789614123
+
+MODE: baseline
+QUERY: Explain the concept of power and force limiting in cobots.
+  DB_ID: 603, SCORE: 0.39798498153686523
+  DB_ID: 2, SCORE: 0.34352225065231323
+  DB_ID: 613, SCORE: 0.3403317928314209
+
+MODE: hybrid
+QUERY: Explain the concept of power and force limiting in cobots.
+  DB_ID: 603, SCORE: 0.7
+  DB_ID: 2, SCORE: 0.2565740570632299
+  DB_ID: 613, SCORE: 0.23059791255758488
+
+MODE: baseline
+QUERY: What is the role of light curtains in robot safety?
+  DB_ID: 626, SCORE: 0.6761280298233032
+  DB_ID: 1707, SCORE: 0.6591687202453613
+  DB_ID: 1364, SCORE: 0.6428117752075195
+
+MODE: hybrid
+QUERY: What is the role of light curtains in robot safety?
+  DB_ID: 626, SCORE: 0.7
+  DB_ID: 1707, SCORE: 0.6382395300063304
+  DB_ID: 1364, SCORE: 0.5786726821606102
+
